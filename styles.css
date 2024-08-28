@@ -1,12 +1,22 @@
+/* ========================
+ =============*/
+
 * {
   margin: 0;
   box-sizing: border-box;
 }
 
+/* ========================
+ ============= letters*/
+
+h2 {
+  font-family: "Bangers", system-ui;
+}
+
 img {
   display: block;
   max-width: 100%;
-  border-radius: 5px;
+  border-radius: 30px;
 }
 
 body {
@@ -16,17 +26,38 @@ body {
 .img-container {
   height: 180px;
   width: 100px;
+  margin-top: 30px;
 }
 
 main {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .card-container {
-  border: solid, 2px black;
+  border: solid, 1px blueviolet;
   background-color: pink;
   display: flex;
-  max-width: 500px;
+  max-width: 450px;
+  border-radius: 10px;
+}
+
+.card-details {
+  display: flex;
+  text-align: center;
+  gap: 40px;
+
+  margin-block: 20px;
+}
+
+.details-container {
+  padding: 40px;
+}
+
+.label,
+.occupation {
+  color: blueviolet;
 }
