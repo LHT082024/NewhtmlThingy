@@ -39,7 +39,14 @@ main {
 
 .card-container {
   border: solid, 1px blueviolet;
-  background-color: pink;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #ffb6ec 46%,
+    #ff7df5 100%
+  );
+
   display: flex;
   max-width: 450px;
   border-radius: 10px;
